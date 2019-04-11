@@ -1,6 +1,7 @@
 #root {
     background: #eee;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 }
 
 .country-wrapper {
@@ -86,6 +87,7 @@ h2 {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .single-country {
